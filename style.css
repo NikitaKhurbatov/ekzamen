@@ -1,0 +1,181 @@
+
+body > * {
+    min-height: 100%;
+    align-items: stretch !important;
+    font-family: Roboto,sans-serif;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+
+.header {
+    position: relative;
+    border-bottom: 3px solid #ddb379;
+}
+
+.nav-item {
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+.tel {
+    margin-top: -5px;
+}
+.tel2 {
+    text-decoration: underline;
+    color: #ddb379;
+}
+
+.information {
+    background: url(../img/first_bg.jpg) no-repeat 33%/cover;
+    height: 760px;
+    text-align: initial;
+}
+
+.first_text {
+    font-size: 37px;
+    padding-bottom: 0px;
+    height: 40%;
+    margin-top: 130px;
+    font-weight: 700;
+}
+
+.text_color {
+    color: #ddb379;
+}
+
+.first_text::after{
+    content: "";
+    display: block;
+    width: 98px;
+    height: 2px;
+    background-color: #ddb379;
+    position: absolute;
+    bottom: 246px;
+}
+
+.second_text {
+    margin-bottom: 1.5em;
+    font-size: 17px;
+    line-height: 35px;
+    color: #5b5b5b;
+}
+
+.button_info {
+    padding: 22px 30px;
+    
+}
+
+
+.btn {
+    background: linear-gradient(0deg,#c5a16d 0,#dfcb9f);
+    color: white;
+}
+
+
+.third-text {
+    margin-top: 32px;
+    color: #a0a0a0;
+    font-size: 17px;
+    line-height: 35px;
+}
+
+.record {
+        padding: 4.25em 0;
+    background: url(../img/second_bg.jpg) no-repeat 50%/cover;
+    height: 100%;
+}
+
+
+
+.section-text {
+    text-align: center;
+    font-size: 2.5em;
+    position: relative;
+    margin-bottom: .75em;
+    padding-bottom: 20px;
+    font-weight: 900;
+    color: white;
+}
+
+.section-text::after{
+    content: "";
+    display: block;
+    width: 98px;
+    height: 2px;
+    background-color: #ddb379;
+    position: absolute;
+    bottom: 0;
+    left: 42%;
+    
+}
+
+.page-header {
+    font-size: 1.5em;
+    position: relative;
+    margin-bottom: .75em;
+    padding-bottom: 20px;
+    font-weight: 900;
+}
+
+.page-header::after{
+    content: "";
+    display: block;
+    width: 98px;
+    height: 2px;
+    background-color: #ddb379;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.footer {
+    background-color: #1d2234;
+    color: #fff;
+    padding: 1.25em 0;
+}
+
+li, p {
+    margin: .5em 0;
+    
+}
+
+@media (min-width: 320px) and (max-width:767px){
+    .first_text {
+    text-align: center;
+    margin-top: 12%;
+    font-size: 22px;
+    }
+}
+
+@media (min-width: 320px) and (max-width:767px){
+    h1::after{
+    margin-bottom: 6%;
+    margin-left: 30%;
+    }
+}
+
+@media (min-width: 320px) and (max-width:767px){
+    .second_text {
+        text-align: center;
+        margin-top: -12%;
+    }
+}
+
+@media (min-width: 320px) and (max-width:767px){
+    .but1 {
+        text-align: center;
+        margin-top: 10%;
+    }
+}
+
+@media (min-width: 320px) and (max-width:767px){
+    .record {
+        text-align: center;
+        margin-top: -60%;
+    }
+}
